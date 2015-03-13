@@ -16,7 +16,7 @@
 (def pmd:fileName (pmd "fileName"))
 (def pmd:fileExtension (pmd "fileExtension"))
 (def pmd:mediaType (pmd "mediaType"))
-(def pmd:sizeInBytes (pmd "sizeInBytes"))
+(def pmd:byteSize (pmd "byteSize"))
 (def pmd:downloadURL (pmd "downloadURL"))
 
 
