@@ -19,3 +19,6 @@
 
 (def skos:Collection (skos "Collection"))
 (def skos:member (skos "member"))
+
+(def skos:narrower (skos "narrower"))
+(def skos:broader (skos "broader"))
