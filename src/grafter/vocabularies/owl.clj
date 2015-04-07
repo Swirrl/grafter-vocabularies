@@ -7,3 +7,5 @@
 (def owl:Ontology (owl "Ontology"))
 
 (def owl:Class (owl "Class"))
+
+(def owl:sameAs (owl "sameAs"))
