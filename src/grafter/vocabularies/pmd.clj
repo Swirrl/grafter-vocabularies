@@ -2,7 +2,6 @@
   "Some convenience terms for the Publish My Data vocabulary."
   (:require [grafter.vocabularies.core :refer :all]))
 
-
 (def pmd                 (prefixer "http://publishmydata.com/def/dataset#"))
 
 (def pmd:Dataset         (pmd "Dataset"))
@@ -31,3 +30,11 @@
 (def folder:parentFolder (folder "parentFolder"))
 (def folder:inFolder     (folder "inFolder"))
 (def folder:inTree       (folder "inTree"))
+
+
+(def cube (prefixer "http://publishmydata.com/def/cube#"))
+
+(def cube:hasNumerator (cube "hasNumerator"))
+(def cube:hasDenominator (cube "hasDenominator"))
+(def cube:numeratorValue (cube "numeratorValue"))
+(def cube:denominatorValue (cube "denominatorValue"))
