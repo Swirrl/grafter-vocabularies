@@ -18,8 +18,6 @@
 (def pmd:byteSize (pmd "byteSize"))
 (def pmd:downloadURL (pmd "downloadURL"))
 
-(def pmd:codeList (pmd "codeList"))
-
 
 (def folder              (prefixer "http://publishmydata.com/def/ontology/folder/"))
 

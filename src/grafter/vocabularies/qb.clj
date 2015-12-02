@@ -34,6 +34,7 @@
 
 (def qb:concept (qb "concept"))
 
+(def qb:codeList (qb "codeList"))
 
 (def qb:Slice (qb "Slice"))
 (def qb:slice (qb "slice"))
