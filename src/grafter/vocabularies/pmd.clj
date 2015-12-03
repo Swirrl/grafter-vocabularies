@@ -30,9 +30,11 @@
 (def folder:inTree       (folder "inTree"))
 
 
-(def cube (prefixer "http://publishmydata.com/def/cube#"))
+(def cube (prefixer "http://publishmydata.com/def/cube/"))
 
 (def cube:hasNumerator (cube "hasNumerator"))
 (def cube:hasDenominator (cube "hasDenominator"))
 (def cube:numeratorValue (cube "numeratorValue"))
 (def cube:denominatorValue (cube "denominatorValue"))
+
+(def cube:refAreaLevel (cube "refAreaLevel"))
