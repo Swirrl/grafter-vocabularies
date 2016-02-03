@@ -2,7 +2,7 @@
   "Some convenience terms for the time ontology."
   (:require [grafter.vocabularies.core :refer :all]))
 
-(def owl-time (prefixer "http://www.w3.org/2006/owl-time#"))
+(def owl-time (prefixer "http://www.w3.org/2006/time#"))
 (def owl-time:hasBeginning (owl-time "hasBeginning"))
 (def owl-time:hasEnd (owl-time "hasEnd"))
 (def owl-time:inXSDDateTime (owl-time "inXSDDateTime"))
