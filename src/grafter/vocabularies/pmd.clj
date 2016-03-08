@@ -36,5 +36,6 @@
 (def cube:hasDenominator (cube "hasDenominator"))
 (def cube:numeratorValue (cube "numeratorValue"))
 (def cube:denominatorValue (cube "denominatorValue"))
+(def cube:multiplierValue (cube "multiplierValue"))
 
 (def cube:refAreaLevel (cube "refAreaLevel"))
