@@ -4,3 +4,4 @@
 
 (def schema (prefixer "http://schema.org/"))
 (def schema:GovernmentOrganization (schema "GovernmentOrganization"))
+(def schema:Organization (schema "Organization"))
