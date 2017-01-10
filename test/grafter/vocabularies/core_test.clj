@@ -7,4 +7,4 @@
   (testing "Prefixer"
     (let [example-prefixer (prefixer "http://example.org/")]
       (is (= (example-prefixer "path")
-             "http://example.org/path")))))
+             (URI. "http://example.org/path"))))))
