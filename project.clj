@@ -1,4 +1,4 @@
-(defproject grafter/vocabularies "0.1.8-SNAPSHOT"
+(defproject grafter/vocabularies "0.2.1-SNAPSHOT"
   :description "Vocabularies for grafting Linked-data"
   :url "http://grafter.org"
   :license {:name "Eclipse Public License"
@@ -7,4 +7,4 @@
   :deploy-repositories [["releases" :clojars]
                         ["snapshots" :clojars]]
 
-  :dependencies [[org.clojure/clojure "1.6.0"]])
+  :dependencies [[org.clojure/clojure "1.8.0"]])
