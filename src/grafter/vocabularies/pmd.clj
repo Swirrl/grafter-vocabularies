@@ -43,3 +43,19 @@
 
 (def pmd:hasDataMarker (URI. "http://publishmydata.com/def/hasDataMarker"))
 (defn pmd:dataMarker [marker] (URI. (str "http://publishmydata.com/def/concept/data-marker/" marker)))
+
+
+(def pmdont:foi (URI. "http://publishmydata.com/def/ontology/foi"))
+(def foi (prefixer "http://publishmydata.com/def/ontology/foi/"))
+(def foi:code (foi "code"))
+(def foi:displayName (foi "displayName"))
+(def foi:singularDisplayName (foi "singularDisplayName"))
+(def foi:pluralDisplayName (foi "pluralDisplayName"))
+(def foi:memberOf (foi "memberOf"))
+(def foi:parent (foi "parent"))
+(def foi:status (foi "status"))
+(def foi:within (foi "within"))
+(def foi:Feature (foi "Feature"))
+(def foi:FeatureCollection (foi "FeatureCollection"))
+(def foi:OrgCollection (foi "OrgCollection"))
+(def foi:ReferenceFeatureProperty (foi "ReferenceFeatureProperty"))
