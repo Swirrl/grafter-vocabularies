@@ -53,7 +53,8 @@
 (def foi:pluralDisplayName (foi "pluralDisplayName"))
 (def foi:memberOf (foi "memberOf"))
 (def foi:parent (foi "parent"))
-(def foi:status (foi "status"))
+(def foi:status (foi "status"))                             ;; old / deprecated
+(def foi:active (foi "active"))
 (def foi:within (foi "within"))
 (def foi:Feature (foi "Feature"))
 (def foi:FeatureCollection (foi "FeatureCollection"))
