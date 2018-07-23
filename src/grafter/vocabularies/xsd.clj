@@ -27,3 +27,5 @@
 (def xsd:string (xsd "string"))
 
 (def xsd:dateTime (xsd "dateTime"))
+
+(def xsd:date (xsd "date"))
