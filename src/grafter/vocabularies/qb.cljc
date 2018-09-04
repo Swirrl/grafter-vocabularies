@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.qb
   "Some convenience terms for the data cube vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def qb (prefixer "http://purl.org/linked-data/cube#"))
 

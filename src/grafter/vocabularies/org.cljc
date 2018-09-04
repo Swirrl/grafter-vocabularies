@@ -1,5 +1,5 @@
 (ns grafter.vocabularies.org
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def org (prefixer "http://www.w3.org/ns/org#"))
 

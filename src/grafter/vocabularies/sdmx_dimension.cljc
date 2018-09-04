@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.sdmx-dimension
   "Some convenience terms for the SDMX dimension vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def sdmx-dimension (prefixer "http://purl.org/linked-data/sdmx/2009/dimension#"))
 

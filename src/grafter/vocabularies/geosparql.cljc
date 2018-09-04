@@ -1,5 +1,5 @@
 (ns grafter.vocabularies.geosparql
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def geosparql (prefixer "http://www.opengis.net/ont/geosparql#"))
 
