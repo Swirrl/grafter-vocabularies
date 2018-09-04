@@ -1,5 +1,5 @@
 (ns grafter.vocabularies.foaf
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def foaf (prefixer "http://xmlns.com/foaf/0.1/"))
 (def foaf:Person (foaf "Person"))

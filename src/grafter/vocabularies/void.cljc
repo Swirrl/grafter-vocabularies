@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.void
   "Some convenience terms for the VOID vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def void (prefixer "http://rdfs.org/ns/void#"))
 

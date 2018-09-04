@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.sdmx-concept
   "Some convenience terms for the SDMX concept vocabulary"
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def sdmx-concept (prefixer "http://purl.org/linked-data/sdmx/2009/concept#"))
 

@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.xkos
   "Terms in the XKOS vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def xkos (prefixer "http://rdf-vocabulary.ddialliance.org/xkos#"))
 

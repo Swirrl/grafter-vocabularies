@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.owl-time
   "Some convenience terms for the time ontology."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def owl-time (prefixer "http://www.w3.org/2006/time#"))
 (def owl-time:hasBeginning (owl-time "hasBeginning"))

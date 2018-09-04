@@ -1,5 +1,5 @@
 (ns grafter.vocabularies.ons-geography
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def statistical-entity (prefixer "http://statistics.data.gov.uk/def/statistical-entity#"))
 (def statistical-entity:name                 (statistical-entity "name"))

@@ -1,5 +1,5 @@
 (ns grafter.vocabularies.dcat
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def dcat (prefixer "http://www.w3.org/ns/dcat#"))
 
