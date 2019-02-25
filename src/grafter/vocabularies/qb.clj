@@ -13,6 +13,7 @@
 (def qb:componentAttachment (qb "componentAttachment"))
 (def qb:ComponentSpecification (qb "ComponentSpecification"))
 (def qb:ComponentProperty (qb "ComponentProperty"))
+(def qb:componentProperty (qb "componentProperty"))
 
 (def qb:Attachable (qb "Attachable"))
 
