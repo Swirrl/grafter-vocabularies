@@ -28,4 +28,8 @@
 
 (def xsd:dateTime (xsd "dateTime"))
 
+(def xsd:dateTimeStamp (xsd "dateTimeStamp"))
+
 (def xsd:date (xsd "date"))
+
+(def xsd:time (xsd "time"))
