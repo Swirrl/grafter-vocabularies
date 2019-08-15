@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.skos
   "Some convenience terms for the SKOS vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def skos (prefixer "http://www.w3.org/2004/02/skos/core#"))
 

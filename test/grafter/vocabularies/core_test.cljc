@@ -1,10 +1,9 @@
 (ns grafter.vocabularies.core-test
-  (:require [clojure.test :refer :all]
-            [grafter.vocabularies.core :refer :all])
-  (:import [java.net URI]))
+  (:require [clojure.test :refer [deftest testing is]]
+            [grafter.vocabularies.core :refer [prefixer ->uri]]))
 
 (deftest prefixer-test
   (testing "Prefixer"
     (let [example-prefixer (prefixer "http://example.org/")]
       (is (= (example-prefixer "path")
-             (URI. "http://example.org/path"))))))
+             (->uri "http://example.org/path"))))))

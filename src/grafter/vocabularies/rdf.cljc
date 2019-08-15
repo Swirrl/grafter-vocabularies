@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.rdf
   "Some convenience terms for the RDF and RDFS vocabularies."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def rdf (prefixer "http://www.w3.org/1999/02/22-rdf-syntax-ns#"))
 (def rdfs (prefixer "http://www.w3.org/2000/01/rdf-schema#"))

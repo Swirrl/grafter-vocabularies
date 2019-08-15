@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.owl
   "Some convenience terms for the owl vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def owl (prefixer "http://www.w3.org/2002/07/owl#"))
 

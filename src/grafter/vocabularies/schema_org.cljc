@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.schema-org
   "URIs from schema.org"
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def schema (prefixer "http://schema.org/"))
 (def schema:GovernmentOrganization (schema "GovernmentOrganization"))

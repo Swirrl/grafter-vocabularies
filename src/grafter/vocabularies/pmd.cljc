@@ -1,7 +1,6 @@
 (ns grafter.vocabularies.pmd
   "Some convenience terms for the Publish My Data vocabulary."
-  (:require [grafter.vocabularies.core :refer :all])
-  (:import [java.net URI]))
+  (:require [grafter.vocabularies.core :refer [prefixer ->uri]]))
 
 (def pmd                 (prefixer "http://publishmydata.com/def/dataset#"))
 
@@ -41,11 +40,11 @@
 
 (def cube:refAreaLevel (cube "refAreaLevel"))
 
-(def pmd:hasDataMarker (URI. "http://publishmydata.com/def/hasDataMarker"))
-(defn pmd:dataMarker [marker] (URI. (str "http://publishmydata.com/def/concept/data-marker/" marker)))
+(def pmd:hasDataMarker (->uri "http://publishmydata.com/def/hasDataMarker"))
+(defn pmd:dataMarker [marker] (->uri (str "http://publishmydata.com/def/concept/data-marker/" marker)))
 
 
-(def pmdont:foi (URI. "http://publishmydata.com/def/ontology/foi"))
+(def pmdont:foi (->uri "http://publishmydata.com/def/ontology/foi"))
 (def foi (prefixer "http://publishmydata.com/def/ontology/foi/"))
 (def foi:code (foi "code"))
 (def foi:displayName (foi "displayName"))

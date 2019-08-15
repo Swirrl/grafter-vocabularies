@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.dcterms
   "Some convenience variables for the dublin core vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 
 (def dcterms (prefixer "http://purl.org/dc/terms/"))

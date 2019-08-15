@@ -1,6 +1,6 @@
 (ns grafter.vocabularies.vcard
   "Convenience terms for the VCard vocabulary."
-  (:require [grafter.vocabularies.core :refer :all]))
+  (:require [grafter.vocabularies.core :refer [prefixer]]))
 
 (def vcard (prefixer "http://www.w3.org/2006/vcard/ns#"))
 
