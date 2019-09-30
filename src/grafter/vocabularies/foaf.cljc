@@ -11,3 +11,4 @@
 (def foaf:knows (foaf "knows"))
 (def foaf:name (foaf "name"))
 (def foaf:nick (foaf "nick"))
+(def foaf:primaryTopic (foaf "primaryTopic"))
