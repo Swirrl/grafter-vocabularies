@@ -8,6 +8,8 @@
 (def rdf:a (rdf "type"))
 
 (def rdf:Property (rdf "Property"))
+(def rdf:langString (rdf "langString"))
+
 (def rdfs:subPropertyOf (rdfs "subPropertyOf"))
 
 (def rdfs:Class (rdfs "Class"))
