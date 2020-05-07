@@ -4,8 +4,11 @@
 #?(:cljs
    (deftype URI [uri-str]
      IEquiv
-     (-equiv [t o] (-equiv (.-uri-str t)
-                           (.-uri-str o)))
+     (-equiv [t o]
+       (if (instance? URI o)
+         (-equiv (.-uri-str t)
+                 (.-uri-str o))
+         false))
      Object
      (toString [_]
        uri-str)
