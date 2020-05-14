@@ -1,4 +1,4 @@
-(defproject grafter/vocabularies "0.3.4"
+(defproject grafter/vocabularies "0.3.5-SNAPSHOT"
   :description "Vocabularies for grafting Linked-data"
   :url "http://grafter.org"
   :license {:name "Eclipse Public License"
