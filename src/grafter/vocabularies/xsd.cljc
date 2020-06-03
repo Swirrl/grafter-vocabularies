@@ -33,3 +33,5 @@
 (def xsd:date (xsd "date"))
 
 (def xsd:time (xsd "time"))
+
+(def xsd:long (xsd "long"))
