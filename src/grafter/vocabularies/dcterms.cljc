@@ -17,3 +17,4 @@
 (def dcterms:isReplacedBy (dcterms "isReplacedBy"))
 (def dcterms:replaces (dcterms "replaces"))
 (def dcterms:identifier (dcterms "identifier"))
+(def dcterms:spatial (dcterms "spatial"))
