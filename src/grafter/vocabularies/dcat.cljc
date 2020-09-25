@@ -23,3 +23,4 @@
 (def dcat:record (dcat "record"))
 (def dcat:theme (dcat "theme"))
 (def dcat:themeTaxonomy (dcat "themeTaxonomy"))
+(def dcat:bbox (dcat "bbox"))
