@@ -35,3 +35,5 @@
 (def xsd:time (xsd "time"))
 
 (def xsd:long (xsd "long"))
+
+(def xsd:duration (xsd "duration"))
