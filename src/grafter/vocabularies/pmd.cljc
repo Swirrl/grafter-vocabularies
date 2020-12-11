@@ -72,3 +72,7 @@
 (def pmdcat:datasetContents (pmdcat "datasetContents"))
 (def pmdcat:metadataGraph (pmdcat "metadataGraph"))
 (def pmdcat:markdownDescription (pmdcat "markdownDescription"))
+
+(def pmdgeo (prefixer "http://publishmydata.com/def/pmdgeo/"))
+(def pmdgeo:asGeoJSON (pmdgeo "asGeoJSON"))
+(def pmdgeo:geoJsonLiteral (pmdgeo "geoJsonLiteral"))
