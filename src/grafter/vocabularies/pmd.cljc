@@ -76,3 +76,6 @@
 (def pmdgeo (prefixer "http://publishmydata.com/def/pmdgeo/"))
 (def pmdgeo:asGeoJSON (pmdgeo "asGeoJSON"))
 (def pmdgeo:geoJsonLiteral (pmdgeo "geoJsonLiteral"))
+
+(def pmdkos (prefixer "http://publishmydata.com/def/pmdkos#"))
+(def pmdkos:ConceptLevel (pmdkos "ConceptLevel"))
