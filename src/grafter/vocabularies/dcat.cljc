@@ -4,7 +4,7 @@
 (def dcat (prefixer "http://www.w3.org/ns/dcat#"))
 
 ;; Classes
-
+(def dcat:Catalog (dcat "Catalog"))
 (def dcat:CatalogRecord (dcat "CatalogRecord"))
 (def dcat:Dataset (dcat "Dataset"))
 (def dcat:Distribution (dcat "Distribution"))
