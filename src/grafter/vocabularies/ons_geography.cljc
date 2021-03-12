@@ -5,7 +5,6 @@
 (def statistical-entity:name                 (statistical-entity "name"))
 (def statistical-entity:abbreviation         (statistical-entity "abbreviation"))
 (def statistical-entity:owner                (statistical-entity "owner"))
-(def statistical-entity:coverage             (statistical-entity "coverage"))
 (def statistical-entity:relatedentity        (statistical-entity "relatedentity"))
 (def statistical-entity:status               (statistical-entity "status"))
 (def statistical-entity:liveinstances        (statistical-entity "liveinstances"))
