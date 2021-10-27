@@ -23,3 +23,4 @@
 (def rdfs:isDefinedBy (rdfs "isDefinedBy"))
 (def rdfs:range (rdfs "range"))
 (def rdfs:domain (rdfs "domain"))
+(def rdfs:seeAlso (rdfs "seeAlso"))
